@@ -1,9 +1,8 @@
 # SSH Massen-Brute-Forcer mit libssh2
+```bash
 ## Original: 2014 Refaktorisiert: 2026
 
 ### Kompilierung
-
-```bash
 
 gcc -Wall -Wextra -Wformat=2 -Wshadow -o pscan pscan.c \
           -I/path/to/libssh2/include -L/path/to/libssh2/lib \
