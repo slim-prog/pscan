@@ -9,7 +9,9 @@ gcc -Wall -Wextra -Wformat=2 -Wshadow -o pscan pscan.c \
           -lssh2 -lcrypto
 
 Beschreibung
-Dieses Tool scannt entweder eine Liste von IPs oder ein komplettes /16-Netzwerk nach offenen SSH-Ports und versucht dann, mit den angegebenen Benutzernamen und Passwörtern eine Verbindung herzustellen. Gefundene Kombinationen werden in einer Datei namens vuln.txt gespeichert.
+Dieses Tool scannt entweder eine Liste von IPs oder ein komplettes /16-Netzwerk nach offenen SSH-Ports und versucht dann,
+mit den angegebenen Benutzernamen und Passwörtern eine Verbindung herzustellen.
+Gefundene Kombinationen werden in einer Datei namens vuln.txt gespeichert.
 
 In pass.lst: $user     = Das Passwort ist exakt identisch mit dem Benutzernamen.
              $user123  = Das Passwort setzt sich aus dem Benutzernamen und der direkt angehängten Zeichenfolge "123" zusammen.
@@ -37,7 +39,8 @@ Argumente
 -c: Kommando, das auf dem Remote-Server ausgeführt werden soll.
 
 Hinweis
-Dieses Tool ist für legale Penetrationstests gedacht. Bitte verwenden Sie es verantwortungsbewusst und nur mit ausdrücklicher Genehmigung des Eigentümers der Zielsysteme. Der Autor übernimmt keine Haftung für Schäden, die durch die Nutzung dieses Tools entstehen
+Dieses Tool ist für legale Penetrationstests gedacht. Bitte verwenden Sie es verantwortungsbewusst und nur mit ausdrücklicher Genehmigung des Eigentümers der Zielsysteme.
+Der Autor übernimmt keine Haftung für Schäden, die durch die Nutzung dieses Tools entstehen
 
 Autor
 dr4c0_
