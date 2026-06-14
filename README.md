@@ -1,6 +1,5 @@
 # SSH Massen-Brute-Forcer mit libssh2
-
-## Original: 2014 refactorizat 2026
+## Original: 2014 Refaktorisiert: 2026
 
 ### Kompilierung
 
